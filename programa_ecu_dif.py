@@ -819,7 +819,7 @@ with open("app.py", "w") as f:
 import threading, time
 
 def run():
-    !streamlit run app.py
+    streamlit run app.py
 
 threading.Thread(target=run).start()
 time.sleep(5)
