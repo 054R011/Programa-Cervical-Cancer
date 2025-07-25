@@ -818,9 +818,6 @@ with open("app.py", "w") as f:
 # 4. Ejecutar la app con ngrok
 import threading, time
 
-def run():
-    streamlit run app.py
-
 threading.Thread(target=run).start()
 time.sleep(5)
 
