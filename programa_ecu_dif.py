@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1okC6rW5QY8sFObq0qfSNHOnR2bANFUO-
 """
 
-!pip install -q streamlit pyngrok
-
 from pyngrok import ngrok, conf
 conf.get_default().auth_token = "2xWTWPwYDlZ68r2MjxeYHe8uLcM_2yc7pkUVLXMUEEhii1a78"
 
