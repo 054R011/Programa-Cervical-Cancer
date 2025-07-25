@@ -1,6 +1,5 @@
 streamlit
-json
-os
-math
-matplotlib.pyplot
+pandas
 numpy
+scipy
+matplotlib
