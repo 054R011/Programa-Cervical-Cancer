@@ -818,7 +818,6 @@ with open("app.py", "w") as f:
 # 4. Ejecutar la app con ngrok
 import threading, time
 
-threading.Thread(target=run).start()
 time.sleep(5)
 
 public_url = ngrok.connect(8501)
