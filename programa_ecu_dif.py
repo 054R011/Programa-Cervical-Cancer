@@ -823,5 +823,3 @@ time.sleep(5)
 
 public_url = ngrok.connect(8501)
 print("✅ Tu app está disponible en:", public_url)
-
-!cat requirements.txt
